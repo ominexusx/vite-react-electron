@@ -1,0 +1,15 @@
+{
+    "appId": "com.your-company.electron-app",
+    "files": ["dist-electron","dist-react"],
+    "icon": "build/window.ico",
+    "mac": {
+        "target": "dmg"
+    },
+    "win": {
+        "target": ["msi", "portable"]
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    }
+}
